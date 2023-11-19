@@ -1,6 +1,8 @@
+import { generateImage } from '../components/generateImg';
 import styles from './index.module.css';
 
 const Home = () => {
+  console.log(generateImage());
   return (
     <div className={styles.container}>
       <main className={styles.main}>
